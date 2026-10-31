@@ -1,0 +1,7 @@
+# Hashes of file build rules.
+cd4bd5094ab23ff755b74499bc981441 .qt/rcc/qrc_Gestorinventario_translations.cpp
+38f31b2b3908c913b59dfe1ddf64cb04 CMakeFiles/Gestorinventario_autogen
+38f31b2b3908c913b59dfe1ddf64cb04 CMakeFiles/Gestorinventario_lrelease
+04cebfb209e21ae041f8a6aa63bc9ef3 CMakeFiles/Gestorinventario_lupdate
+90eba928d84855c6aec6e075f095049c Gestorinventario_autogen/timestamp
+b0412418483e7da0f24748690f32475f Gestorinventario_es_CO.qm
