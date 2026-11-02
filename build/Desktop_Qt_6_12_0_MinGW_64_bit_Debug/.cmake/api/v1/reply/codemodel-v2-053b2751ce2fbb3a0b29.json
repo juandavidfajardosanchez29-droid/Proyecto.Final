@@ -1,0 +1,115 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-330b3c881e6fd9f785ff.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Gestorinventario",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Gestorinventario::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Gestorinventario-Debug-e3d7f348500178e81202.json",
+					"name" : "Gestorinventario",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Gestorinventario_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Gestorinventario_autogen-Debug-38a7136807db1c007510.json",
+					"name" : "Gestorinventario_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Gestorinventario_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Gestorinventario_autogen_timestamp_deps-Debug-9f336849a5ca58de73a5.json",
+					"name" : "Gestorinventario_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Gestorinventario_lrelease::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Gestorinventario_lrelease-Debug-4627e937f050d44fa57f.json",
+					"name" : "Gestorinventario_lrelease",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Gestorinventario_lupdate::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Gestorinventario_lupdate-Debug-7c0cf532f00469c9ee18.json",
+					"name" : "Gestorinventario_lupdate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "release_translations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-release_translations-Debug-69987ed16c2a7d4b51e1.json",
+					"name" : "release_translations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "update_translations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-update_translations-Debug-fef933964e2734d48974.json",
+					"name" : "update_translations",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/friol/OneDrive/Documents/Proyecto/Gestorinventario/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug",
+		"source" : "C:/Users/friol/OneDrive/Documents/Proyecto/Gestorinventario"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

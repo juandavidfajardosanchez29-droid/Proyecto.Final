@@ -458,6 +458,18 @@
 	"HEADERS" : 
 	[
 		[
+			"C:/Users/friol/OneDrive/Documents/Proyecto/Gestorinventario/articulo.h",
+			"MU",
+			"EWIEGA46WW/moc_articulo.cpp",
+			null
+		],
+		[
+			"C:/Users/friol/OneDrive/Documents/Proyecto/Gestorinventario/databasemanager.h",
+			"MU",
+			"EWIEGA46WW/moc_databasemanager.cpp",
+			null
+		],
+		[
 			"C:/Users/friol/OneDrive/Documents/Proyecto/Gestorinventario/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
@@ -474,6 +486,7 @@
 		"QT_GUI_LIB",
 		"QT_NEEDS_QMAIN",
 		"QT_QML_DEBUG",
+		"QT_SQL_LIB",
 		"QT_WIDGETS_LIB",
 		"UNICODE",
 		"WIN32",
@@ -496,6 +509,7 @@
 		"C:/Qt/6.12.0/mingw_64/mkspecs/win32-g++",
 		"C:/Qt/6.12.0/mingw_64/include/QtWidgets",
 		"C:/Qt/6.12.0/mingw_64/include/QtGui",
+		"C:/Qt/6.12.0/mingw_64/include/QtSql",
 		"C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++",
 		"C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32",
 		"C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward",
@@ -538,6 +552,16 @@
 	"SETTINGS_FILE" : "C:/Users/friol/OneDrive/Documents/Proyecto/Gestorinventario/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/CMakeFiles/Gestorinventario_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"C:/Users/friol/OneDrive/Documents/Proyecto/Gestorinventario/articulo.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/friol/OneDrive/Documents/Proyecto/Gestorinventario/databasemanager.cpp",
+			"MU",
+			null
+		],
 		[
 			"C:/Users/friol/OneDrive/Documents/Proyecto/Gestorinventario/main.cpp",
 			"MU",

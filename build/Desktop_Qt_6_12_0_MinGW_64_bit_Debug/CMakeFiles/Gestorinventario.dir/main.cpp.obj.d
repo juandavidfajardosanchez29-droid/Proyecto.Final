@@ -387,6 +387,14 @@ CMakeFiles/Gestorinventario.dir/main.cpp.obj: \
  C:/Qt/6.12.0/mingw_64/include/QtGui/qcursor.h \
  C:/Qt/6.12.0/mingw_64/include/QtGui/qbitmap.h \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/qtabwidget.h \
+ C:\Users\friol\OneDrive\Documents\Proyecto\Gestorinventario\databasemanager.h \
+ C:/Qt/6.12.0/mingw_64/include/QtCore/QString \
+ C:/Qt/6.12.0/mingw_64/include/QtSql/QSqlDatabase \
+ C:/Qt/6.12.0/mingw_64/include/QtSql/qsqldatabase.h \
+ C:/Qt/6.12.0/mingw_64/include/QtSql/qtsqlglobal.h \
+ C:/Qt/6.12.0/mingw_64/include/QtSql/qtsql-config.h \
+ C:/Qt/6.12.0/mingw_64/include/QtSql/qtsqlexports.h \
+ C:/Qt/6.12.0/mingw_64/include/QtCore/qmetaobject.h \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/QApplication \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/qapplication.h \
  C:/Qt/6.12.0/mingw_64/include/QtCore/qcoreapplication.h \
@@ -400,7 +408,4 @@ CMakeFiles/Gestorinventario.dir/main.cpp.obj: \
  C:/Qt/6.12.0/mingw_64/include/QtGui/qguiapplication.h \
  C:/Qt/6.12.0/mingw_64/include/QtGui/qinputmethod.h \
  C:/Qt/6.12.0/mingw_64/include/QtCore/qlocale.h \
- C:/Qt/6.12.0/mingw_64/include/QtGui/qguiapplication_platform.h \
- C:/Qt/6.12.0/mingw_64/include/QtCore/QLocale \
- C:/Qt/6.12.0/mingw_64/include/QtCore/QTranslator \
- C:/Qt/6.12.0/mingw_64/include/QtCore/qtranslator.h
+ C:/Qt/6.12.0/mingw_64/include/QtGui/qguiapplication_platform.h
