@@ -92,13 +92,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 30,
+				"line" : 33,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 23,
+				"line" : 26,
 				"parent" : 0
 			},
 			{
@@ -519,7 +519,8 @@
 				2,
 				6,
 				8,
-				13
+				10,
+				15
 			]
 		}
 	],
@@ -646,8 +647,8 @@
 			"sourceIndexes" : 
 			[
 				0,
-				14,
-				15
+				16,
+				17
 			]
 		},
 		{
@@ -658,7 +659,8 @@
 				2,
 				6,
 				8,
-				13
+				10,
+				15
 			]
 		},
 		{
@@ -667,7 +669,8 @@
 			[
 				3,
 				5,
-				7
+				7,
+				9
 			]
 		},
 		{
@@ -681,25 +684,25 @@
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				9,
-				10,
-				12
+				11,
+				12,
+				14
 			]
 		},
 		{
 			"name" : "Resources",
 			"sourceIndexes" : 
 			[
-				11
+				13
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				16,
-				17,
-				18
+				18,
+				19,
+				20
 			]
 		}
 	],
@@ -754,6 +757,17 @@
 			"backtrace" : 4,
 			"compileGroupIndex" : 0,
 			"path" : "articulo.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "articulodialog.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "articulodialog.cpp",
 			"sourceGroupIndex" : 1
 		},
 		{

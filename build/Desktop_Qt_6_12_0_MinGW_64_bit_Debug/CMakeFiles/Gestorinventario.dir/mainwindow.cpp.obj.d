@@ -409,4 +409,57 @@ CMakeFiles/Gestorinventario.dir/mainwindow.cpp.obj: \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/qmenu.h \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/QStatusBar \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/qstatusbar.h \
- C:/Qt/6.12.0/mingw_64/include/QtWidgets/QWidget
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/QWidget \
+ C:\Users\friol\OneDrive\Documents\Proyecto\Gestorinventario\articulodialog.h \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/QDialog \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/qdialog.h \
+ C:/Qt/6.12.0/mingw_64/include/QtSql/QSqlError \
+ C:/Qt/6.12.0/mingw_64/include/QtSql/qsqlerror.h \
+ C:/Qt/6.12.0/mingw_64/include/QtSql/qtsqlglobal.h \
+ C:/Qt/6.12.0/mingw_64/include/QtSql/qtsql-config.h \
+ C:/Qt/6.12.0/mingw_64/include/QtSql/qtsqlexports.h \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/QHBoxLayout \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/qboxlayout.h \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/qlayout.h \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/qlayoutitem.h \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/qgridlayout.h \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/QHeaderView \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/qheaderview.h \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/qabstractitemview.h \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/qabstractscrollarea.h \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/qframe.h \
+ C:/Qt/6.12.0/mingw_64/include/QtCore/qabstractitemmodel.h \
+ C:/Qt/6.12.0/mingw_64/include/QtCore/qitemselectionmodel.h \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/qstyleoption.h \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/qabstractspinbox.h \
+ C:/Qt/6.12.0/mingw_64/include/QtGui/qvalidator.h \
+ C:/Qt/6.12.0/mingw_64/include/QtCore/qregularexpression.h \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/qslider.h \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/qabstractslider.h \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/qstyle.h \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/qtabbar.h \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/qrubberband.h \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/QMessageBox \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/qmessagebox.h \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/qdialogbuttonbox.h \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/QPushButton \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/qpushbutton.h \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/qabstractbutton.h \
+ C:/Qt/6.12.0/mingw_64/include/QtSql/QSqlQuery \
+ C:/Qt/6.12.0/mingw_64/include/QtSql/qsqlquery.h \
+ C:/Qt/6.12.0/mingw_64/include/QtSql/qsqldatabase.h \
+ C:/Qt/6.12.0/mingw_64/include/QtCore/qmetaobject.h \
+ C:/Qt/6.12.0/mingw_64/include/QtSql/QSqlRelationalDelegate \
+ C:/Qt/6.12.0/mingw_64/include/QtSql/qsqlrelationaldelegate.h \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/qstyleditemdelegate.h \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/qlistview.h \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/qcombobox.h \
+ C:/Qt/6.12.0/mingw_64/include/QtSql/qsqldriver.h \
+ C:/Qt/6.12.0/mingw_64/include/QtSql/qsqlrelationaltablemodel.h \
+ C:/Qt/6.12.0/mingw_64/include/QtSql/qsqltablemodel.h \
+ C:/Qt/6.12.0/mingw_64/include/QtSql/qsqlquerymodel.h \
+ C:/Qt/6.12.0/mingw_64/include/QtSql/QSqlRelationalTableModel \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/QTableView \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/qtableview.h \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/QVBoxLayout

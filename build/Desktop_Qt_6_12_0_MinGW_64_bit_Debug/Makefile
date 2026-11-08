@@ -299,6 +299,30 @@ articulo.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Gestorinventario.dir\build.make CMakeFiles/Gestorinventario.dir/articulo.cpp.s
 .PHONY : articulo.cpp.s
 
+articulodialog.obj: articulodialog.cpp.obj
+.PHONY : articulodialog.obj
+
+# target to build an object file
+articulodialog.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Gestorinventario.dir\build.make CMakeFiles/Gestorinventario.dir/articulodialog.cpp.obj
+.PHONY : articulodialog.cpp.obj
+
+articulodialog.i: articulodialog.cpp.i
+.PHONY : articulodialog.i
+
+# target to preprocess a source file
+articulodialog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Gestorinventario.dir\build.make CMakeFiles/Gestorinventario.dir/articulodialog.cpp.i
+.PHONY : articulodialog.cpp.i
+
+articulodialog.s: articulodialog.cpp.s
+.PHONY : articulodialog.s
+
+# target to generate assembly for a file
+articulodialog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Gestorinventario.dir\build.make CMakeFiles/Gestorinventario.dir/articulodialog.cpp.s
+.PHONY : articulodialog.cpp.s
+
 build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_Gestorinventario_translations.obj: build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_Gestorinventario_translations.cpp.obj
 .PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_Gestorinventario_translations.obj
 
@@ -420,6 +444,9 @@ help:
 	@echo ... articulo.obj
 	@echo ... articulo.i
 	@echo ... articulo.s
+	@echo ... articulodialog.obj
+	@echo ... articulodialog.i
+	@echo ... articulodialog.s
 	@echo ... build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_Gestorinventario_translations.obj
 	@echo ... build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_Gestorinventario_translations.i
 	@echo ... build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_Gestorinventario_translations.s

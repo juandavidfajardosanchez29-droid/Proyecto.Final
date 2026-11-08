@@ -154,7 +154,9 @@ Gestorinventario_autogen/timestamp: \
 	C:/Qt/6.12.0/mingw_64/include/QtGui/qtransform.h \
 	C:/Qt/6.12.0/mingw_64/include/QtGui/qwindowdefs.h \
 	C:/Qt/6.12.0/mingw_64/include/QtGui/qwindowdefs_win.h \
+	C:/Qt/6.12.0/mingw_64/include/QtWidgets/QDialog \
 	C:/Qt/6.12.0/mingw_64/include/QtWidgets/QMainWindow \
+	C:/Qt/6.12.0/mingw_64/include/QtWidgets/qdialog.h \
 	C:/Qt/6.12.0/mingw_64/include/QtWidgets/qmainwindow.h \
 	C:/Qt/6.12.0/mingw_64/include/QtWidgets/qsizepolicy.h \
 	C:/Qt/6.12.0/mingw_64/include/QtWidgets/qtabwidget.h \
@@ -648,6 +650,8 @@ Gestorinventario_autogen/timestamp: \
 	C:/Users/friol/OneDrive/Documents/Proyecto/Gestorinventario/CMakeLists.txt \
 	C:/Users/friol/OneDrive/Documents/Proyecto/Gestorinventario/articulo.cpp \
 	C:/Users/friol/OneDrive/Documents/Proyecto/Gestorinventario/articulo.h \
+	C:/Users/friol/OneDrive/Documents/Proyecto/Gestorinventario/articulodialog.cpp \
+	C:/Users/friol/OneDrive/Documents/Proyecto/Gestorinventario/articulodialog.h \
 	C:/Users/friol/OneDrive/Documents/Proyecto/Gestorinventario/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qtcreator/cmake-helper/maintenance_tool_provider.cmake \
 	C:/Users/friol/OneDrive/Documents/Proyecto/Gestorinventario/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qtcreator/cmake-helper/package-manager.cmake \
 	C:/Users/friol/OneDrive/Documents/Proyecto/Gestorinventario/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qtcreator/cmake-helper/qtcreator-project.cmake \

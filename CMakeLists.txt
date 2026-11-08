@@ -15,6 +15,7 @@ qt_add_executable(Gestorinventario
     databasemanager.cpp
     articulo.h
     articulo.cpp
+    articulodialog.h articulodialog.cpp
 )
 
 qt_add_translations(

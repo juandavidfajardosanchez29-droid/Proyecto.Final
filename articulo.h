@@ -2,9 +2,7 @@
 
 #include <QString>
 
-/**
- * @brief Representa un artículo del inventario.
- */
+
 class Articulo
 {
 public:
@@ -20,7 +18,6 @@ public:
     QString ubicacion() const;
     QString fecha() const;
 
-    /** @brief Indica si la cantidad está por debajo del mínimo. */
     bool stockBajo() const;
 
 private:

@@ -155,11 +155,26 @@ CMakeFiles/Gestorinventario.dir/articulo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Gestorinventario.dir/articulo.cpp.s"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\friol\OneDrive\Documents\Proyecto\Gestorinventario\articulo.cpp -o CMakeFiles\Gestorinventario.dir\articulo.cpp.s
 
+CMakeFiles/Gestorinventario.dir/articulodialog.cpp.obj: CMakeFiles/Gestorinventario.dir/flags.make
+CMakeFiles/Gestorinventario.dir/articulodialog.cpp.obj: CMakeFiles/Gestorinventario.dir/includes_CXX.rsp
+CMakeFiles/Gestorinventario.dir/articulodialog.cpp.obj: C:/Users/friol/OneDrive/Documents/Proyecto/Gestorinventario/articulodialog.cpp
+CMakeFiles/Gestorinventario.dir/articulodialog.cpp.obj: CMakeFiles/Gestorinventario.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\friol\OneDrive\Documents\Proyecto\Gestorinventario\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Gestorinventario.dir/articulodialog.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Gestorinventario.dir/articulodialog.cpp.obj -MF CMakeFiles\Gestorinventario.dir\articulodialog.cpp.obj.d -o CMakeFiles\Gestorinventario.dir\articulodialog.cpp.obj -c C:\Users\friol\OneDrive\Documents\Proyecto\Gestorinventario\articulodialog.cpp
+
+CMakeFiles/Gestorinventario.dir/articulodialog.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Gestorinventario.dir/articulodialog.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\friol\OneDrive\Documents\Proyecto\Gestorinventario\articulodialog.cpp > CMakeFiles\Gestorinventario.dir\articulodialog.cpp.i
+
+CMakeFiles/Gestorinventario.dir/articulodialog.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Gestorinventario.dir/articulodialog.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\friol\OneDrive\Documents\Proyecto\Gestorinventario\articulodialog.cpp -o CMakeFiles\Gestorinventario.dir\articulodialog.cpp.s
+
 CMakeFiles/Gestorinventario.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_Gestorinventario_translations.cpp.obj: CMakeFiles/Gestorinventario.dir/flags.make
 CMakeFiles/Gestorinventario.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_Gestorinventario_translations.cpp.obj: CMakeFiles/Gestorinventario.dir/includes_CXX.rsp
 CMakeFiles/Gestorinventario.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_Gestorinventario_translations.cpp.obj: .qt/rcc/qrc_Gestorinventario_translations.cpp
 CMakeFiles/Gestorinventario.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_Gestorinventario_translations.cpp.obj: CMakeFiles/Gestorinventario.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\friol\OneDrive\Documents\Proyecto\Gestorinventario\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Gestorinventario.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_Gestorinventario_translations.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\friol\OneDrive\Documents\Proyecto\Gestorinventario\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Gestorinventario.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_Gestorinventario_translations.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Gestorinventario.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_Gestorinventario_translations.cpp.obj -MF CMakeFiles\Gestorinventario.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.qt\rcc\qrc_Gestorinventario_translations.cpp.obj.d -o CMakeFiles\Gestorinventario.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.qt\rcc\qrc_Gestorinventario_translations.cpp.obj -c C:\Users\friol\OneDrive\Documents\Proyecto\Gestorinventario\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.qt\rcc\qrc_Gestorinventario_translations.cpp
 
 CMakeFiles/Gestorinventario.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_Gestorinventario_translations.cpp.i: cmake_force
@@ -177,6 +192,7 @@ Gestorinventario_OBJECTS = \
 "CMakeFiles/Gestorinventario.dir/mainwindow.cpp.obj" \
 "CMakeFiles/Gestorinventario.dir/databasemanager.cpp.obj" \
 "CMakeFiles/Gestorinventario.dir/articulo.cpp.obj" \
+"CMakeFiles/Gestorinventario.dir/articulodialog.cpp.obj" \
 "CMakeFiles/Gestorinventario.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_Gestorinventario_translations.cpp.obj"
 
 # External object files for target Gestorinventario
@@ -187,6 +203,7 @@ Gestorinventario.exe: CMakeFiles/Gestorinventario.dir/main.cpp.obj
 Gestorinventario.exe: CMakeFiles/Gestorinventario.dir/mainwindow.cpp.obj
 Gestorinventario.exe: CMakeFiles/Gestorinventario.dir/databasemanager.cpp.obj
 Gestorinventario.exe: CMakeFiles/Gestorinventario.dir/articulo.cpp.obj
+Gestorinventario.exe: CMakeFiles/Gestorinventario.dir/articulodialog.cpp.obj
 Gestorinventario.exe: CMakeFiles/Gestorinventario.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_Gestorinventario_translations.cpp.obj
 Gestorinventario.exe: CMakeFiles/Gestorinventario.dir/build.make
 Gestorinventario.exe: C:/Qt/6.12.0/mingw_64/lib/libQt6Widgets.a
@@ -198,7 +215,7 @@ Gestorinventario.exe: Gestorinventario.exe.manifest
 Gestorinventario.exe: CMakeFiles/Gestorinventario.dir/linkLibs.rsp
 Gestorinventario.exe: CMakeFiles/Gestorinventario.dir/objects1.rsp
 Gestorinventario.exe: CMakeFiles/Gestorinventario.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\friol\OneDrive\Documents\Proyecto\Gestorinventario\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable Gestorinventario.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\friol\OneDrive\Documents\Proyecto\Gestorinventario\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable Gestorinventario.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Gestorinventario.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -1,9 +1,9 @@
 CMakeFiles/Gestorinventario.dir/Gestorinventario_autogen/mocs_compilation.cpp.obj: \
  C:\Users\friol\OneDrive\Documents\Proyecto\Gestorinventario\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\Gestorinventario_autogen\mocs_compilation.cpp \
- C:\Users\friol\OneDrive\Documents\Proyecto\Gestorinventario\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\Gestorinventario_autogen\EWIEGA46WW/moc_mainwindow.cpp \
- C:/Users/friol/OneDrive/Documents/Proyecto/Gestorinventario/mainwindow.h \
- C:/Qt/6.12.0/mingw_64/include/QtWidgets/QMainWindow \
- C:/Qt/6.12.0/mingw_64/include/QtWidgets/qmainwindow.h \
+ C:\Users\friol\OneDrive\Documents\Proyecto\Gestorinventario\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\Gestorinventario_autogen\EWIEGA46WW/moc_articulodialog.cpp \
+ C:/Users/friol/OneDrive/Documents/Proyecto/Gestorinventario/articulodialog.h \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/QDialog \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/qdialog.h \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
  C:/Qt/6.12.0/mingw_64/include/QtGui/qtguiglobal.h \
  C:/Qt/6.12.0/mingw_64/include/QtCore/qglobal.h \
@@ -387,7 +387,11 @@ CMakeFiles/Gestorinventario.dir/Gestorinventario_autogen/mocs_compilation.cpp.ob
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/qsizepolicy.h \
  C:/Qt/6.12.0/mingw_64/include/QtGui/qcursor.h \
  C:/Qt/6.12.0/mingw_64/include/QtGui/qbitmap.h \
- C:/Qt/6.12.0/mingw_64/include/QtWidgets/qtabwidget.h \
  C:/Qt/6.12.0/mingw_64/include/QtCore/qtmochelpers.h \
  C:/Qt/6.12.0/mingw_64/include/QtCore/qtmocconstants.h \
- C:/Qt/6.12.0/mingw_64/include/QtCore/q20algorithm.h
+ C:/Qt/6.12.0/mingw_64/include/QtCore/q20algorithm.h \
+ C:\Users\friol\OneDrive\Documents\Proyecto\Gestorinventario\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\Gestorinventario_autogen\EWIEGA46WW/moc_mainwindow.cpp \
+ C:/Users/friol/OneDrive/Documents/Proyecto/Gestorinventario/mainwindow.h \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/QMainWindow \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/qmainwindow.h \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/qtabwidget.h
