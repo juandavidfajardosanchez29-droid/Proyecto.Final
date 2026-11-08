@@ -2,6 +2,7 @@
 #include "ui_mainwindow.h"
 #include "articulodialog.h"
 
+#include <QLineEdit>
 #include <QSqlError>
 #include <QHBoxLayout>
 #include <QHeaderView>
@@ -55,9 +56,29 @@ MainWindow::MainWindow(QWidget *parent)
     filaBotones->addWidget(btnEliminar);
     filaBotones->addStretch();
 
+    // --- Búsqueda y filtro ---
+    m_buscador = new QLineEdit(this);
+    m_buscador->setPlaceholderText("Buscar por nombre o ubicación...");
+    m_buscador->setClearButtonEnabled(true);
+
+    m_filtroCategoria = new QComboBox(this);
+    m_filtroCategoria->addItem("Todas las categorías", 0);
+    QSqlQuery qc("SELECT id, nombre FROM categorias ORDER BY nombre");
+    while (qc.next())
+        m_filtroCategoria->addItem(qc.value(1).toString(), qc.value(0));
+
+    connect(m_buscador, &QLineEdit::textChanged, this, &MainWindow::aplicarFiltro);
+    connect(m_filtroCategoria, &QComboBox::currentIndexChanged,
+            this, &MainWindow::aplicarFiltro);
+
+    auto *filaBusqueda = new QHBoxLayout;
+    filaBusqueda->addWidget(m_buscador, 1);
+    filaBusqueda->addWidget(m_filtroCategoria);
+
     auto *contenedor = new QWidget(this);
     auto *layout = new QVBoxLayout(contenedor);
     layout->addLayout(filaBotones);
+    layout->addLayout(filaBusqueda);
     layout->addWidget(m_tabla);
     setCentralWidget(contenedor);
 }
@@ -164,4 +185,22 @@ void MainWindow::eliminarArticulo()
     q.addBindValue(id);
     q.exec();
     m_modelo->select();
+}
+void MainWindow::aplicarFiltro()
+{
+    QString texto = m_buscador->text().trimmed();
+    texto.replace("'", "''");   // protege las comillas
+
+    QStringList condiciones;
+
+    if (!texto.isEmpty()) {
+        condiciones << "(articulos.nombre LIKE '%" + texto + "%' "
+                                                             "OR articulos.ubicacion LIKE '%" + texto + "%')";
+    }
+
+    int categoriaId = m_filtroCategoria->currentData().toInt();
+    if (categoriaId > 0)
+        condiciones << "articulos.categoria_id = " + QString::number(categoriaId);
+
+    m_modelo->setFilter(condiciones.join(" AND "));
 }

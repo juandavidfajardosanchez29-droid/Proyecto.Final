@@ -413,6 +413,15 @@ CMakeFiles/Gestorinventario.dir/mainwindow.cpp.obj: \
  C:\Users\friol\OneDrive\Documents\Proyecto\Gestorinventario\articulodialog.h \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/QDialog \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/qdialog.h \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/QLineEdit \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/qlineedit.h \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/qframe.h \
+ C:/Qt/6.12.0/mingw_64/include/QtGui/qtextcursor.h \
+ C:/Qt/6.12.0/mingw_64/include/QtGui/qtextdocument.h \
+ C:/Qt/6.12.0/mingw_64/include/QtCore/qurl.h \
+ C:/Qt/6.12.0/mingw_64/include/QtGui/qtextformat.h \
+ C:/Qt/6.12.0/mingw_64/include/QtGui/qpen.h \
+ C:/Qt/6.12.0/mingw_64/include/QtGui/qtextoption.h \
  C:/Qt/6.12.0/mingw_64/include/QtSql/QSqlError \
  C:/Qt/6.12.0/mingw_64/include/QtSql/qsqlerror.h \
  C:/Qt/6.12.0/mingw_64/include/QtSql/qtsqlglobal.h \
@@ -427,7 +436,6 @@ CMakeFiles/Gestorinventario.dir/mainwindow.cpp.obj: \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/qheaderview.h \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/qabstractitemview.h \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/qabstractscrollarea.h \
- C:/Qt/6.12.0/mingw_64/include/QtWidgets/qframe.h \
  C:/Qt/6.12.0/mingw_64/include/QtCore/qabstractitemmodel.h \
  C:/Qt/6.12.0/mingw_64/include/QtCore/qitemselectionmodel.h \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/qabstractitemdelegate.h \

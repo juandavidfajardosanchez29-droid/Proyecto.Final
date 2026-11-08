@@ -4,6 +4,8 @@
 
 class QTableView;
 class QSqlRelationalTableModel;
+class QLineEdit;
+class QComboBox;
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -24,6 +26,7 @@ private slots:
     void agregarArticulo();
     void editarArticulo();
     void eliminarArticulo();
+    void aplicarFiltro();
 
 private:
     void cargarDatosPrueba();
@@ -31,6 +34,8 @@ private:
     Ui::MainWindow *ui;
     QSqlRelationalTableModel *m_modelo;
     QTableView *m_tabla;
+    QLineEdit *m_buscador;
+    QComboBox *m_filtroCategoria;
 
 
 };
