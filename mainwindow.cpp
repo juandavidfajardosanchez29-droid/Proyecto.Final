@@ -2,7 +2,12 @@
 #include "ui_mainwindow.h"
 #include "articulodialog.h"
 #include "articulosmodel.h"
+#include "articulo.h"
 
+#include <QFile>
+#include <QFileDialog>
+#include <QTextStream>
+#include <QVector>
 #include <QLineEdit>
 #include <QSqlError>
 #include <QHBoxLayout>
@@ -14,6 +19,10 @@
 #include <QSqlRelationalTableModel>
 #include <QTableView>
 #include <QVBoxLayout>
+
+
+
+
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -50,12 +59,17 @@ MainWindow::MainWindow(QWidget *parent)
     connect(btnAgregar, &QPushButton::clicked, this, &MainWindow::agregarArticulo);
     connect(btnEditar, &QPushButton::clicked, this, &MainWindow::editarArticulo);
     connect(btnEliminar, &QPushButton::clicked, this, &MainWindow::eliminarArticulo);
+    auto *btnExportar = new QPushButton("Exportar CSV", this);
+    connect(btnExportar, &QPushButton::clicked, this, &MainWindow::exportarCSV);
+
 
     auto *filaBotones = new QHBoxLayout;
     filaBotones->addWidget(btnAgregar);
     filaBotones->addWidget(btnEditar);
     filaBotones->addWidget(btnEliminar);
+    filaBotones->addWidget(btnExportar);
     filaBotones->addStretch();
+
 
     // --- Búsqueda y filtro ---
     m_buscador = new QLineEdit(this);
@@ -84,6 +98,9 @@ MainWindow::MainWindow(QWidget *parent)
     setCentralWidget(contenedor);
 }
 
+
+
+
 MainWindow::~MainWindow()
 {
     delete ui;
@@ -108,6 +125,10 @@ void MainWindow::cargarDatosPrueba()
            "VALUES ('ESP32', 3, 4, 2, 'Estante C', '2026-10-10')");
 
 }
+
+
+
+
 void MainWindow::agregarArticulo()
 {
     ArticuloDialog dlg(this);
@@ -129,6 +150,11 @@ void MainWindow::agregarArticulo()
         QMessageBox::warning(this, "Error", q.lastError().text());
     m_modelo->select();
 }
+
+
+
+
+
 
 void MainWindow::editarArticulo()
 {
@@ -166,6 +192,10 @@ void MainWindow::editarArticulo()
     m_modelo->select();
 }
 
+
+
+
+
 void MainWindow::eliminarArticulo()
 {
     int fila = m_tabla->currentIndex().row();
@@ -187,6 +217,10 @@ void MainWindow::eliminarArticulo()
     q.exec();
     m_modelo->select();
 }
+
+
+
+
 void MainWindow::aplicarFiltro()
 {
     QString texto = m_buscador->text().trimmed();
@@ -204,4 +238,67 @@ void MainWindow::aplicarFiltro()
         condiciones << "articulos.categoria_id = " + QString::number(categoriaId);
 
     m_modelo->setFilter(condiciones.join(" AND "));
+}
+
+
+
+
+void MainWindow::exportarCSV()
+{
+    QString ruta = QFileDialog::getSaveFileName(
+        this, "Guardar reporte", "inventario.csv", "Archivos CSV (*.csv)");
+    if (ruta.isEmpty())
+        return;
+
+    // 1. Leer la base de datos y crear objetos Articulo
+    QSqlQuery q("SELECT a.id, a.nombre, a.categoria_id, a.cantidad, "
+                "a.stock_minimo, a.ubicacion, a.fecha_adquisicion, c.nombre "
+                "FROM articulos a JOIN categorias c ON a.categoria_id = c.id "
+                "ORDER BY a.nombre");
+
+    QVector<Articulo> articulos;
+    QStringList categorias;
+    while (q.next()) {
+        articulos.append(Articulo(q.value(0).toInt(), q.value(1).toString(),
+                                  q.value(2).toInt(), q.value(3).toInt(),
+                                  q.value(4).toInt(), q.value(5).toString(),
+                                  q.value(6).toString()));
+        categorias.append(q.value(7).toString());
+    }
+
+
+    QFile archivo(ruta);
+    if (!archivo.open(QIODevice::WriteOnly | QIODevice::Text)) {
+        QMessageBox::warning(this, "Error", "No se pudo crear el archivo.");
+        return;
+    }
+
+    QTextStream out(&archivo);
+    out.setEncoding(QStringConverter::Utf8);
+    out.setGenerateByteOrderMark(true);   // para que Excel lea bien las tildes
+
+    // Pone el texto entre comillas y duplica las comillas internas
+    auto celda = [](const QString &texto) {
+        QString t = texto;
+        t.replace("\"", "\"\"");
+        return "\"" + t + "\"";
+    };
+
+    // 3. Escribir encabezado y filas
+    out << "Nombre;Categoria;Cantidad;Stock minimo;Ubicacion;Fecha;Estado\n";
+    for (int i = 0; i < articulos.size(); ++i) {
+        const Articulo &a = articulos.at(i);
+        out << celda(a.nombre()) << ";"
+            << celda(categorias.at(i)) << ";"
+            << a.cantidad() << ";"
+            << a.stockMinimo() << ";"
+            << celda(a.ubicacion()) << ";"
+            << celda(a.fecha()) << ";"
+            << (a.stockBajo() ? "STOCK BAJO" : "OK") << "\n";
+    }
+
+    archivo.close();
+    QMessageBox::information(this, "Reporte",
+                             "Se exportaron " + QString::number(articulos.size())
+                                 + " artículos.");
 }

@@ -1,0 +1,4 @@
+﻿Nombre;Categoria;Cantidad;Stock minimo;Ubicacion;Fecha;Estado
+"Capacitor 100nF";"Capacitores";8;15;"Cajón B2";"2026-10-05";STOCK BAJO
+"ESP32";"Microcontroladores";4;2;"Estante C";"2026-10-10";OK
+"Resistencia 10k";"Resistencias";100;20;"Cajón A1";"2026-10-01";OK
