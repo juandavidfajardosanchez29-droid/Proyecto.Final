@@ -28,6 +28,7 @@ private slots:
     void eliminarArticulo();
     void aplicarFiltro();
     void exportarCSV();
+    void agregarCategoria();
 
 private:
     void cargarDatosPrueba();

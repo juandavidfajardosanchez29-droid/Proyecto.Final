@@ -426,6 +426,16 @@ CMakeFiles/Gestorinventario.dir/mainwindow.cpp.obj: \
  C:/Qt/6.12.0/mingw_64/include/QtCore/qabstractitemmodel.h \
  C:\Users\friol\OneDrive\Documents\Proyecto\Gestorinventario\articulo.h \
  C:/Qt/6.12.0/mingw_64/include/QtCore/QString \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/QInputDialog \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/qinputdialog.h \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/qlineedit.h \
+ C:/Qt/6.12.0/mingw_64/include/QtWidgets/qframe.h \
+ C:/Qt/6.12.0/mingw_64/include/QtGui/qtextcursor.h \
+ C:/Qt/6.12.0/mingw_64/include/QtGui/qtextdocument.h \
+ C:/Qt/6.12.0/mingw_64/include/QtCore/qurl.h \
+ C:/Qt/6.12.0/mingw_64/include/QtGui/qtextformat.h \
+ C:/Qt/6.12.0/mingw_64/include/QtGui/qpen.h \
+ C:/Qt/6.12.0/mingw_64/include/QtGui/qtextoption.h \
  C:/Qt/6.12.0/mingw_64/include/QtCore/QFile \
  C:/Qt/6.12.0/mingw_64/include/QtCore/qfile.h \
  C:/Qt/6.12.0/mingw_64/include/QtCore/qfiledevice.h \
@@ -468,18 +478,10 @@ CMakeFiles/Gestorinventario.dir/mainwindow.cpp.obj: \
  C:/Qt/6.12.0/mingw_64/include/QtCore/qcalendar.h \
  C:/Qt/6.12.0/mingw_64/include/QtCore/qfileinfo.h \
  C:/Qt/6.12.0/mingw_64/include/QtCore/qtimezone.h \
- C:/Qt/6.12.0/mingw_64/include/QtCore/qurl.h \
  C:/Qt/6.12.0/mingw_64/include/QtCore/QTextStream \
  C:/Qt/6.12.0/mingw_64/include/QtCore/QVector \
  C:/Qt/6.12.0/mingw_64/include/QtCore/qvector.h \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/QLineEdit \
- C:/Qt/6.12.0/mingw_64/include/QtWidgets/qlineedit.h \
- C:/Qt/6.12.0/mingw_64/include/QtWidgets/qframe.h \
- C:/Qt/6.12.0/mingw_64/include/QtGui/qtextcursor.h \
- C:/Qt/6.12.0/mingw_64/include/QtGui/qtextdocument.h \
- C:/Qt/6.12.0/mingw_64/include/QtGui/qtextformat.h \
- C:/Qt/6.12.0/mingw_64/include/QtGui/qpen.h \
- C:/Qt/6.12.0/mingw_64/include/QtGui/qtextoption.h \
  C:/Qt/6.12.0/mingw_64/include/QtSql/QSqlError \
  C:/Qt/6.12.0/mingw_64/include/QtSql/qsqlerror.h \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/QHBoxLayout \

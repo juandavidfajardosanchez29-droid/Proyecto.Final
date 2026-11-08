@@ -4,6 +4,7 @@
 #include "articulosmodel.h"
 #include "articulo.h"
 
+#include <QInputDialog>
 #include <QFile>
 #include <QFileDialog>
 #include <QTextStream>
@@ -61,6 +62,8 @@ MainWindow::MainWindow(QWidget *parent)
     connect(btnEliminar, &QPushButton::clicked, this, &MainWindow::eliminarArticulo);
     auto *btnExportar = new QPushButton("Exportar CSV", this);
     connect(btnExportar, &QPushButton::clicked, this, &MainWindow::exportarCSV);
+    auto *btnCategoria = new QPushButton("Nueva categoría", this);
+    connect(btnCategoria, &QPushButton::clicked, this, &MainWindow::agregarCategoria);
 
 
     auto *filaBotones = new QHBoxLayout;
@@ -68,10 +71,12 @@ MainWindow::MainWindow(QWidget *parent)
     filaBotones->addWidget(btnEditar);
     filaBotones->addWidget(btnEliminar);
     filaBotones->addWidget(btnExportar);
+    filaBotones->addWidget(btnCategoria);
     filaBotones->addStretch();
 
 
-    // --- Búsqueda y filtro ---
+
+
     m_buscador = new QLineEdit(this);
     m_buscador->setPlaceholderText("Buscar por nombre o ubicación...");
     m_buscador->setClearButtonEnabled(true);
@@ -301,4 +306,30 @@ void MainWindow::exportarCSV()
     QMessageBox::information(this, "Reporte",
                              "Se exportaron " + QString::number(articulos.size())
                                  + " artículos.");
+}
+
+
+
+void MainWindow::agregarCategoria()
+{
+    bool ok = false;
+    QString nombre = QInputDialog::getText(
+                         this, "Nueva categoría", "Nombre de la categoría:",
+                         QLineEdit::Normal, "", &ok).trimmed();
+    if (!ok || nombre.isEmpty())
+        return;
+
+    QSqlQuery q;
+    q.prepare("INSERT INTO categorias (nombre) VALUES (?)");
+    q.addBindValue(nombre);
+
+    if (!q.exec()) {
+        QMessageBox::warning(this, "Error",
+                             "No se pudo crear la categoría (¿ya existe?).");
+        return;
+    }
+
+    // Agrega la categoría nueva a la lista del filtro
+    m_filtroCategoria->addItem(nombre, q.lastInsertId());
+    m_modelo->select();
 }

@@ -780,9 +780,9 @@ C:/Users/friol/OneDrive/Documents/Proyecto/Gestorinventario/mainwindow.h
  mdp:C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h
  mdp:C:/Users/friol/OneDrive/Documents/Proyecto/Gestorinventario/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/Gestorinventario_autogen/moc_predefs.h
  mdp:C:/Users/friol/OneDrive/Documents/Proyecto/Gestorinventario/mainwindow.h
+C:/Users/friol/OneDrive/Documents/Proyecto/Gestorinventario/main.cpp
 C:/Users/friol/OneDrive/Documents/Proyecto/Gestorinventario/articulodialog.cpp
 C:/Users/friol/OneDrive/Documents/Proyecto/Gestorinventario/articulo.cpp
-C:/Users/friol/OneDrive/Documents/Proyecto/Gestorinventario/main.cpp
 C:/Users/friol/OneDrive/Documents/Proyecto/Gestorinventario/databasemanager.cpp
 C:/Users/friol/OneDrive/Documents/Proyecto/Gestorinventario/mainwindow.cpp
  uic:ui_mainwindow.h
