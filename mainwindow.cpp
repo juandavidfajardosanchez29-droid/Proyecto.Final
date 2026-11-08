@@ -1,6 +1,7 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include "articulodialog.h"
+#include "articulosmodel.h"
 
 #include <QLineEdit>
 #include <QSqlError>
@@ -24,7 +25,7 @@ MainWindow::MainWindow(QWidget *parent)
 
     cargarDatosPrueba();
 
-    m_modelo = new QSqlRelationalTableModel(this);
+    m_modelo = new ArticulosModel(this);
     m_modelo->setTable("articulos");
     // Columna 2 (categoria_id) se muestra con el nombre de la categoría
     m_modelo->setRelation(2, QSqlRelation("categorias", "id", "nombre"));

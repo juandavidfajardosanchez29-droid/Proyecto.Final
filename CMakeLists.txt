@@ -16,6 +16,9 @@ qt_add_executable(Gestorinventario
     articulo.h
     articulo.cpp
     articulodialog.h articulodialog.cpp
+    articulosmodel.h articulosmodel.cpp
+    articulosmodel.cpp
+    articulosmodel.h
 )
 
 qt_add_translations(

@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Gestorinventario.dir/articulo.cpp.obj.d"
   "CMakeFiles/Gestorinventario.dir/articulodialog.cpp.obj"
   "CMakeFiles/Gestorinventario.dir/articulodialog.cpp.obj.d"
+  "CMakeFiles/Gestorinventario.dir/articulosmodel.cpp.obj"
+  "CMakeFiles/Gestorinventario.dir/articulosmodel.cpp.obj.d"
   "CMakeFiles/Gestorinventario.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_Gestorinventario_translations.cpp.obj"
   "CMakeFiles/Gestorinventario.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_Gestorinventario_translations.cpp.obj.d"
   "CMakeFiles/Gestorinventario.dir/databasemanager.cpp.obj"

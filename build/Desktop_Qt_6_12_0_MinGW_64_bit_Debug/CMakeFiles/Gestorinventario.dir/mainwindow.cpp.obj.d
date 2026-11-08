@@ -413,6 +413,17 @@ CMakeFiles/Gestorinventario.dir/mainwindow.cpp.obj: \
  C:\Users\friol\OneDrive\Documents\Proyecto\Gestorinventario\articulodialog.h \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/QDialog \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/qdialog.h \
+ C:\Users\friol\OneDrive\Documents\Proyecto\Gestorinventario\articulosmodel.h \
+ C:/Qt/6.12.0/mingw_64/include/QtSql/QSqlRelationalTableModel \
+ C:/Qt/6.12.0/mingw_64/include/QtSql/qsqlrelationaltablemodel.h \
+ C:/Qt/6.12.0/mingw_64/include/QtSql/qtsqlglobal.h \
+ C:/Qt/6.12.0/mingw_64/include/QtSql/qtsql-config.h \
+ C:/Qt/6.12.0/mingw_64/include/QtSql/qtsqlexports.h \
+ C:/Qt/6.12.0/mingw_64/include/QtSql/qsqltablemodel.h \
+ C:/Qt/6.12.0/mingw_64/include/QtSql/qsqldatabase.h \
+ C:/Qt/6.12.0/mingw_64/include/QtCore/qmetaobject.h \
+ C:/Qt/6.12.0/mingw_64/include/QtSql/qsqlquerymodel.h \
+ C:/Qt/6.12.0/mingw_64/include/QtCore/qabstractitemmodel.h \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/QLineEdit \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/qlineedit.h \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/qframe.h \
@@ -424,9 +435,6 @@ CMakeFiles/Gestorinventario.dir/mainwindow.cpp.obj: \
  C:/Qt/6.12.0/mingw_64/include/QtGui/qtextoption.h \
  C:/Qt/6.12.0/mingw_64/include/QtSql/QSqlError \
  C:/Qt/6.12.0/mingw_64/include/QtSql/qsqlerror.h \
- C:/Qt/6.12.0/mingw_64/include/QtSql/qtsqlglobal.h \
- C:/Qt/6.12.0/mingw_64/include/QtSql/qtsql-config.h \
- C:/Qt/6.12.0/mingw_64/include/QtSql/qtsqlexports.h \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/QHBoxLayout \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/qboxlayout.h \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/qlayout.h \
@@ -436,7 +444,6 @@ CMakeFiles/Gestorinventario.dir/mainwindow.cpp.obj: \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/qheaderview.h \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/qabstractitemview.h \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/qabstractscrollarea.h \
- C:/Qt/6.12.0/mingw_64/include/QtCore/qabstractitemmodel.h \
  C:/Qt/6.12.0/mingw_64/include/QtCore/qitemselectionmodel.h \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/qstyleoption.h \
@@ -456,18 +463,12 @@ CMakeFiles/Gestorinventario.dir/mainwindow.cpp.obj: \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/qabstractbutton.h \
  C:/Qt/6.12.0/mingw_64/include/QtSql/QSqlQuery \
  C:/Qt/6.12.0/mingw_64/include/QtSql/qsqlquery.h \
- C:/Qt/6.12.0/mingw_64/include/QtSql/qsqldatabase.h \
- C:/Qt/6.12.0/mingw_64/include/QtCore/qmetaobject.h \
  C:/Qt/6.12.0/mingw_64/include/QtSql/QSqlRelationalDelegate \
  C:/Qt/6.12.0/mingw_64/include/QtSql/qsqlrelationaldelegate.h \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/qstyleditemdelegate.h \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/qlistview.h \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/qcombobox.h \
  C:/Qt/6.12.0/mingw_64/include/QtSql/qsqldriver.h \
- C:/Qt/6.12.0/mingw_64/include/QtSql/qsqlrelationaltablemodel.h \
- C:/Qt/6.12.0/mingw_64/include/QtSql/qsqltablemodel.h \
- C:/Qt/6.12.0/mingw_64/include/QtSql/qsqlquerymodel.h \
- C:/Qt/6.12.0/mingw_64/include/QtSql/QSqlRelationalTableModel \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/QTableView \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/qtableview.h \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/QVBoxLayout

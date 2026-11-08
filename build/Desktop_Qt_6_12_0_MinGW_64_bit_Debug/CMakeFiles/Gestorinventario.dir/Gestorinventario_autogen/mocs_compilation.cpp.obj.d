@@ -390,6 +390,18 @@ CMakeFiles/Gestorinventario.dir/Gestorinventario_autogen/mocs_compilation.cpp.ob
  C:/Qt/6.12.0/mingw_64/include/QtCore/qtmochelpers.h \
  C:/Qt/6.12.0/mingw_64/include/QtCore/qtmocconstants.h \
  C:/Qt/6.12.0/mingw_64/include/QtCore/q20algorithm.h \
+ C:\Users\friol\OneDrive\Documents\Proyecto\Gestorinventario\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\Gestorinventario_autogen\EWIEGA46WW/moc_articulosmodel.cpp \
+ C:/Users/friol/OneDrive/Documents/Proyecto/Gestorinventario/articulosmodel.h \
+ C:/Qt/6.12.0/mingw_64/include/QtSql/QSqlRelationalTableModel \
+ C:/Qt/6.12.0/mingw_64/include/QtSql/qsqlrelationaltablemodel.h \
+ C:/Qt/6.12.0/mingw_64/include/QtSql/qtsqlglobal.h \
+ C:/Qt/6.12.0/mingw_64/include/QtSql/qtsql-config.h \
+ C:/Qt/6.12.0/mingw_64/include/QtSql/qtsqlexports.h \
+ C:/Qt/6.12.0/mingw_64/include/QtSql/qsqltablemodel.h \
+ C:/Qt/6.12.0/mingw_64/include/QtSql/qsqldatabase.h \
+ C:/Qt/6.12.0/mingw_64/include/QtCore/qmetaobject.h \
+ C:/Qt/6.12.0/mingw_64/include/QtSql/qsqlquerymodel.h \
+ C:/Qt/6.12.0/mingw_64/include/QtCore/qabstractitemmodel.h \
  C:\Users\friol\OneDrive\Documents\Proyecto\Gestorinventario\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\Gestorinventario_autogen\EWIEGA46WW/moc_mainwindow.cpp \
  C:/Users/friol/OneDrive/Documents/Proyecto/Gestorinventario/mainwindow.h \
  C:/Qt/6.12.0/mingw_64/include/QtWidgets/QMainWindow \

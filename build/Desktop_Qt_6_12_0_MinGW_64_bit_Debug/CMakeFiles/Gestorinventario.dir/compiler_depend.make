@@ -12,6 +12,7 @@ CMakeFiles/Gestorinventario.dir/Gestorinventario_autogen/mocs_compilation.cpp.ob
   C:/Qt/6.12.0/mingw_64/include/QtCore/q20utility.h \
   C:/Qt/6.12.0/mingw_64/include/QtCore/q23type_traits.h \
   C:/Qt/6.12.0/mingw_64/include/QtCore/q23utility.h \
+  C:/Qt/6.12.0/mingw_64/include/QtCore/qabstractitemmodel.h \
   C:/Qt/6.12.0/mingw_64/include/QtCore/qalgorithms.h \
   C:/Qt/6.12.0/mingw_64/include/QtCore/qalloc.h \
   C:/Qt/6.12.0/mingw_64/include/QtCore/qanystringview.h \
@@ -67,6 +68,7 @@ CMakeFiles/Gestorinventario.dir/Gestorinventario_autogen/mocs_compilation.cpp.ob
   C:/Qt/6.12.0/mingw_64/include/QtCore/qmargins.h \
   C:/Qt/6.12.0/mingw_64/include/QtCore/qmath.h \
   C:/Qt/6.12.0/mingw_64/include/QtCore/qmetacontainer.h \
+  C:/Qt/6.12.0/mingw_64/include/QtCore/qmetaobject.h \
   C:/Qt/6.12.0/mingw_64/include/QtCore/qmetatype.h \
   C:/Qt/6.12.0/mingw_64/include/QtCore/qminmax.h \
   C:/Qt/6.12.0/mingw_64/include/QtCore/qnamespace.h \
@@ -160,6 +162,14 @@ CMakeFiles/Gestorinventario.dir/Gestorinventario_autogen/mocs_compilation.cpp.ob
   C:/Qt/6.12.0/mingw_64/include/QtGui/qtransform.h \
   C:/Qt/6.12.0/mingw_64/include/QtGui/qwindowdefs.h \
   C:/Qt/6.12.0/mingw_64/include/QtGui/qwindowdefs_win.h \
+  C:/Qt/6.12.0/mingw_64/include/QtSql/QSqlRelationalTableModel \
+  C:/Qt/6.12.0/mingw_64/include/QtSql/qsqldatabase.h \
+  C:/Qt/6.12.0/mingw_64/include/QtSql/qsqlquerymodel.h \
+  C:/Qt/6.12.0/mingw_64/include/QtSql/qsqlrelationaltablemodel.h \
+  C:/Qt/6.12.0/mingw_64/include/QtSql/qsqltablemodel.h \
+  C:/Qt/6.12.0/mingw_64/include/QtSql/qtsql-config.h \
+  C:/Qt/6.12.0/mingw_64/include/QtSql/qtsqlexports.h \
+  C:/Qt/6.12.0/mingw_64/include/QtSql/qtsqlglobal.h \
   C:/Qt/6.12.0/mingw_64/include/QtWidgets/QDialog \
   C:/Qt/6.12.0/mingw_64/include/QtWidgets/QMainWindow \
   C:/Qt/6.12.0/mingw_64/include/QtWidgets/qdialog.h \
@@ -394,8 +404,10 @@ CMakeFiles/Gestorinventario.dir/Gestorinventario_autogen/mocs_compilation.cpp.ob
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
   C:/Users/friol/OneDrive/Documents/Proyecto/Gestorinventario/articulodialog.h \
+  C:/Users/friol/OneDrive/Documents/Proyecto/Gestorinventario/articulosmodel.h \
   C:/Users/friol/OneDrive/Documents/Proyecto/Gestorinventario/mainwindow.h \
   Gestorinventario_autogen/EWIEGA46WW/moc_articulodialog.cpp \
+  Gestorinventario_autogen/EWIEGA46WW/moc_articulosmodel.cpp \
   Gestorinventario_autogen/EWIEGA46WW/moc_mainwindow.cpp
 
 CMakeFiles/Gestorinventario.dir/articulo.cpp.obj: C:/Users/friol/OneDrive/Documents/Proyecto/Gestorinventario/articulo.cpp \
@@ -2028,6 +2040,7 @@ CMakeFiles/Gestorinventario.dir/mainwindow.cpp.obj: C:/Users/friol/OneDrive/Docu
   C:/Qt/6.12.0/mingw_64/include/QtCore/qtversionchecks.h \
   C:/Qt/6.12.0/mingw_64/include/QtCore/qtypeinfo.h \
   C:/Qt/6.12.0/mingw_64/include/QtCore/qtypes.h \
+  C:/Qt/6.12.0/mingw_64/include/QtCore/qurl.h \
   C:/Qt/6.12.0/mingw_64/include/QtCore/qutf8stringview.h \
   C:/Qt/6.12.0/mingw_64/include/QtCore/qvariant.h \
   C:/Qt/6.12.0/mingw_64/include/QtCore/qvarlengtharray.h \
@@ -2051,12 +2064,17 @@ CMakeFiles/Gestorinventario.dir/mainwindow.cpp.obj: C:/Users/friol/OneDrive/Docu
   C:/Qt/6.12.0/mingw_64/include/QtGui/qkeysequence.h \
   C:/Qt/6.12.0/mingw_64/include/QtGui/qpaintdevice.h \
   C:/Qt/6.12.0/mingw_64/include/QtGui/qpalette.h \
+  C:/Qt/6.12.0/mingw_64/include/QtGui/qpen.h \
   C:/Qt/6.12.0/mingw_64/include/QtGui/qpixelformat.h \
   C:/Qt/6.12.0/mingw_64/include/QtGui/qpixmap.h \
   C:/Qt/6.12.0/mingw_64/include/QtGui/qpolygon.h \
   C:/Qt/6.12.0/mingw_64/include/QtGui/qregion.h \
   C:/Qt/6.12.0/mingw_64/include/QtGui/qrgb.h \
   C:/Qt/6.12.0/mingw_64/include/QtGui/qrgba64.h \
+  C:/Qt/6.12.0/mingw_64/include/QtGui/qtextcursor.h \
+  C:/Qt/6.12.0/mingw_64/include/QtGui/qtextdocument.h \
+  C:/Qt/6.12.0/mingw_64/include/QtGui/qtextformat.h \
+  C:/Qt/6.12.0/mingw_64/include/QtGui/qtextoption.h \
   C:/Qt/6.12.0/mingw_64/include/QtGui/qtgui-config.h \
   C:/Qt/6.12.0/mingw_64/include/QtGui/qtguiexports.h \
   C:/Qt/6.12.0/mingw_64/include/QtGui/qtguiglobal.h \
@@ -2083,6 +2101,7 @@ CMakeFiles/Gestorinventario.dir/mainwindow.cpp.obj: C:/Users/friol/OneDrive/Docu
   C:/Qt/6.12.0/mingw_64/include/QtWidgets/QDialog \
   C:/Qt/6.12.0/mingw_64/include/QtWidgets/QHBoxLayout \
   C:/Qt/6.12.0/mingw_64/include/QtWidgets/QHeaderView \
+  C:/Qt/6.12.0/mingw_64/include/QtWidgets/QLineEdit \
   C:/Qt/6.12.0/mingw_64/include/QtWidgets/QMainWindow \
   C:/Qt/6.12.0/mingw_64/include/QtWidgets/QMenuBar \
   C:/Qt/6.12.0/mingw_64/include/QtWidgets/QMessageBox \
@@ -2107,6 +2126,7 @@ CMakeFiles/Gestorinventario.dir/mainwindow.cpp.obj: C:/Users/friol/OneDrive/Docu
   C:/Qt/6.12.0/mingw_64/include/QtWidgets/qheaderview.h \
   C:/Qt/6.12.0/mingw_64/include/QtWidgets/qlayout.h \
   C:/Qt/6.12.0/mingw_64/include/QtWidgets/qlayoutitem.h \
+  C:/Qt/6.12.0/mingw_64/include/QtWidgets/qlineedit.h \
   C:/Qt/6.12.0/mingw_64/include/QtWidgets/qlistview.h \
   C:/Qt/6.12.0/mingw_64/include/QtWidgets/qmainwindow.h \
   C:/Qt/6.12.0/mingw_64/include/QtWidgets/qmenu.h \
@@ -2352,6 +2372,7 @@ CMakeFiles/Gestorinventario.dir/mainwindow.cpp.obj: C:/Users/friol/OneDrive/Docu
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
   Gestorinventario_autogen/include/ui_mainwindow.h \
   C:/Users/friol/OneDrive/Documents/Proyecto/Gestorinventario/articulodialog.h \
+  C:/Users/friol/OneDrive/Documents/Proyecto/Gestorinventario/articulosmodel.h \
   C:/Users/friol/OneDrive/Documents/Proyecto/Gestorinventario/mainwindow.h
 
 
@@ -2428,6 +2449,8 @@ C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/_mingw_stat64.h:
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/version:
 
 C:/Qt/6.12.0/mingw_64/include/QtCore/q23utility.h:
+
+C:/Qt/6.12.0/mingw_64/include/QtCore/qabstractitemmodel.h:
 
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/clocale:
 
@@ -2537,8 +2560,6 @@ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uniq
 
 C:/Qt/6.12.0/mingw_64/include/QtCore/qdatastream.h:
 
-C:/Qt/6.12.0/mingw_64/include/QtCore/qmargins.h:
-
 C:/Qt/6.12.0/mingw_64/include/QtCore/qendian.h:
 
 C:/Qt/6.12.0/mingw_64/include/QtCore/qexceptionhandling.h:
@@ -2583,6 +2604,8 @@ C:/Qt/6.12.0/mingw_64/include/QtCore/qeventloop.h:
 
 C:/Qt/6.12.0/mingw_64/include/QtCore/qmap.h:
 
+C:/Qt/6.12.0/mingw_64/include/QtCore/qmargins.h:
+
 C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/corecrt_stdio_config.h:
 
 C:/Qt/6.12.0/mingw_64/include/QtCore/qmath.h:
@@ -2590,6 +2613,12 @@ C:/Qt/6.12.0/mingw_64/include/QtCore/qmath.h:
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mm_malloc.h:
 
 C:/Qt/6.12.0/mingw_64/include/QtCore/qmetacontainer.h:
+
+C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_map.h:
+
+C:/Qt/6.12.0/mingw_64/include/QtCore/qvarlengtharray.h:
+
+C:/Qt/6.12.0/mingw_64/include/QtCore/qmetaobject.h:
 
 C:/Qt/6.12.0/mingw_64/include/QtCore/qmetatype.h:
 
@@ -2797,12 +2826,6 @@ C:/Qt/6.12.0/mingw_64/include/QtCore/qutf8stringview.h:
 
 C:/Qt/6.12.0/mingw_64/include/QtCore/qvariant.h:
 
-C:/Qt/6.12.0/mingw_64/include/QtCore/qmetaobject.h:
-
-C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_map.h:
-
-C:/Qt/6.12.0/mingw_64/include/QtCore/qvarlengtharray.h:
-
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/new:
 
 C:/Qt/6.12.0/mingw_64/include/QtCore/qversiontagging.h:
@@ -2887,13 +2910,39 @@ C:/Qt/6.12.0/mingw_64/include/QtGui/qwindowdefs.h:
 
 C:/Qt/6.12.0/mingw_64/include/QtGui/qwindowdefs_win.h:
 
-C:/Qt/6.12.0/mingw_64/include/QtWidgets/QMainWindow:
+C:/Qt/6.12.0/mingw_64/include/QtSql/QSqlRelationalTableModel:
 
-C:/Qt/6.12.0/mingw_64/include/QtWidgets/qmainwindow.h:
+C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/stdarg.h:
+
+C:/Qt/6.12.0/mingw_64/include/QtSql/qsqldatabase.h:
+
+C:/Qt/6.12.0/mingw_64/include/QtWidgets/QHeaderView:
+
+C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/stdio.h:
+
+C:/Qt/6.12.0/mingw_64/include/QtSql/qsqlquerymodel.h:
+
+C:/Qt/6.12.0/mingw_64/include/QtWidgets/qsizepolicy.h:
 
 C:/Qt/6.12.0/mingw_64/include/QtSql/qsqlrelationaltablemodel.h:
 
-C:/Qt/6.12.0/mingw_64/include/QtWidgets/qsizepolicy.h:
+C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/alloc_traits.h:
+
+C:/Qt/6.12.0/mingw_64/include/QtSql/qsqltablemodel.h:
+
+C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/hypergeometric.tcc:
+
+C:/Qt/6.12.0/mingw_64/include/QtSql/qtsql-config.h:
+
+C:/Qt/6.12.0/mingw_64/include/QtCore/qitemselectionmodel.h:
+
+C:/Qt/6.12.0/mingw_64/include/QtWidgets/qformlayout.h:
+
+C:/Qt/6.12.0/mingw_64/include/QtSql/qtsqlexports.h:
+
+C:/Qt/6.12.0/mingw_64/include/QtWidgets/QMainWindow:
+
+C:/Qt/6.12.0/mingw_64/include/QtWidgets/qmainwindow.h:
 
 C:/Qt/6.12.0/mingw_64/include/QtWidgets/qtabwidget.h:
 
@@ -3103,10 +3152,6 @@ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ctime:
 
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/aligned_buffer.h:
 
-C:/Qt/6.12.0/mingw_64/include/QtSql/qsqltablemodel.h:
-
-C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/alloc_traits.h:
-
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/string_conversions.h:
 
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/type_traits.h:
@@ -3154,10 +3199,6 @@ C:/Qt/6.12.0/mingw_64/include/QtWidgets/QWidget:
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdarg.h:
 
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/gamma.tcc:
-
-C:/Qt/6.12.0/mingw_64/include/QtSql/qtsql-config.h:
-
-C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/hypergeometric.tcc:
 
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/riemann_zeta.tcc:
 
@@ -3221,19 +3262,9 @@ C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h:
 
 C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h:
 
-C:/Qt/6.12.0/mingw_64/include/QtSql/qsqldatabase.h:
-
-C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/stdarg.h:
-
 C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/stddef.h:
 
 C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/stdint.h:
-
-C:/Qt/6.12.0/mingw_64/include/QtWidgets/QHeaderView:
-
-C:/Qt/6.12.0/mingw_64/include/QtSql/qsqlquerymodel.h:
-
-C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/stdio.h:
 
 C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/swprintf.inl:
 
@@ -3249,13 +3280,15 @@ C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/time.h:
 
 C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h:
 
+C:/Users/friol/OneDrive/Documents/Proyecto/Gestorinventario/articulosmodel.h:
+
+Gestorinventario_autogen/EWIEGA46WW/moc_articulosmodel.cpp:
+
 C:/Qt/6.12.0/mingw_64/include/QtCore/QString:
 
 C:/Qt/6.12.0/mingw_64/include/QtWidgets/qtabbar.h:
 
 C:/Users/friol/OneDrive/Documents/Proyecto/Gestorinventario/articulo.h:
-
-C:/Qt/6.12.0/mingw_64/include/QtCore/qabstractitemmodel.h:
 
 C:/Qt/6.12.0/mingw_64/include/QtCore/qcalendar.h:
 
@@ -3276,12 +3309,6 @@ C:/Qt/6.12.0/mingw_64/include/QtGui/qvalidator.h:
 C:/Qt/6.12.0/mingw_64/include/QtSql/QSqlQuery:
 
 C:/Qt/6.12.0/mingw_64/include/QtSql/qsqlquery.h:
-
-C:/Qt/6.12.0/mingw_64/include/QtCore/qitemselectionmodel.h:
-
-C:/Qt/6.12.0/mingw_64/include/QtWidgets/qformlayout.h:
-
-C:/Qt/6.12.0/mingw_64/include/QtSql/qtsqlexports.h:
 
 C:/Qt/6.12.0/mingw_64/include/QtWidgets/QComboBox:
 
@@ -3334,8 +3361,6 @@ C:/Qt/6.12.0/mingw_64/include/QtCore/qdeadlinetimer.h:
 C:/Qt/6.12.0/mingw_64/include/QtGui/qguiapplication.h:
 
 C:/Qt/6.12.0/mingw_64/include/QtSql/QSqlRelationalDelegate:
-
-C:/Qt/6.12.0/mingw_64/include/QtSql/QSqlRelationalTableModel:
 
 C:/Qt/6.12.0/mingw_64/include/QtWidgets/QMenuBar:
 

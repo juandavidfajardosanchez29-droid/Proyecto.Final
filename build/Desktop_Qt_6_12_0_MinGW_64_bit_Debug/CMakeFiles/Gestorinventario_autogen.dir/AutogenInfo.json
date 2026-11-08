@@ -470,6 +470,12 @@
 			null
 		],
 		[
+			"C:/Users/friol/OneDrive/Documents/Proyecto/Gestorinventario/articulosmodel.h",
+			"MU",
+			"EWIEGA46WW/moc_articulosmodel.cpp",
+			null
+		],
+		[
 			"C:/Users/friol/OneDrive/Documents/Proyecto/Gestorinventario/databasemanager.h",
 			"MU",
 			"EWIEGA46WW/moc_databasemanager.cpp",
@@ -565,6 +571,11 @@
 		],
 		[
 			"C:/Users/friol/OneDrive/Documents/Proyecto/Gestorinventario/articulodialog.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/friol/OneDrive/Documents/Proyecto/Gestorinventario/articulosmodel.cpp",
 			"MU",
 			null
 		],
